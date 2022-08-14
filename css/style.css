@@ -14,6 +14,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 .container--text{
     width: 700px;
 }
@@ -96,7 +97,7 @@ ul > .list--item + .list--item{
 }
 .project--linkName{
   color:#2196F3;
-  /* min-width: 100px; */
+  
 }
 
 .project--linkName:hover{
