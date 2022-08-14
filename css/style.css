@@ -14,7 +14,7 @@ ul {
 a {
   text-decoration: none;
 }
-.p{
+.container--text{
     width: 700px;
 }
 
@@ -52,68 +52,59 @@ ul > .list--item + .list--item{
   color: #fb6d3a;
 }
 
-.t {
-  font-size: 14px;
-  font-weight: 700;
-  color: #000;
-  margin-top: 90px;
-}
-.boxinbox {
+.container {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
   background-color: #fff;
 }
-.osnovnoy-block {
+
+.container--title{
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 90px;
+}
+
+.container--mainContent {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-
-
-
-
-
-
-.roga {
-  color: #fb6d3a;
-}
-.text2 {
-  color: #fb6d3a;
-}
-.text3 {
-  color: #fb6d3a;
-}
-
-.osnovnoy-block {
   margin-left: 90px;
 }
 
-.otstyp2 {
-  margin-left: 30px;
-}
-.otstyp3 {
+.project--title {
   margin-left: 30px;
 }
 
-.okrasit {
-  color: #fb6d3a;
+.container--titleName {
+  margin-left: 30px;
 }
-.okras2 {
-  color: #a8a8a8;
-}
-.okras3 {
-  color: #a8a8a8;
-}
-.okras4 {
-  color: #a8a8a8;
-}
-.Education {
-  margin-top: 40px;
-}
-.l2 {
+
+.project--list {
   margin-right: 50px;
 }
+
+.project--linkCode{
+  color: #000;
+}
+.project--linkCode:hover{
+  color: #fb6d3a;
+  transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project--linkName{
+  color:#2196F3;
+  /* min-width: 100px; */
+}
+
+.project--linkName:hover{
+  color:#040608;
+  transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 
