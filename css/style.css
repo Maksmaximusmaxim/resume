@@ -2,6 +2,55 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+aside {
+  background-color: #1e2939;
+  border-radius: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.p{
+    width: 700px;
+}
+
+
+
+.myData {
+  margin: 30px 0 0 40px;
+}
+.myData--title {
+  color: rgb(248, 248, 248);
+  margin: 0 0 10px 20px;
+}
+.list--item{
+  color: rgb(248, 248, 248);
+}
+ul > .list--item + .list--item{
+  margin-top: 3px;
+}
+.list--link {
+  color: #fff;
+  transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list--link:hover {
+  color: #fb6d3a;
+}
+.education--title{
+  margin-left: 30px;
+}
+.education--item + .education--item{
+  margin-top: 50px;
+}
+.item--title {
+  color: #fb6d3a;
+}
 
 .t {
   font-size: 14px;
@@ -21,36 +70,12 @@ body {
   width: 100%;
 }
 
-.bok {
-  background-color: #1e2939;
-}
-.niz {
-  color: rgb(248, 248, 248);
-}
-.niz2 {
-  color: rgb(248, 248, 248);
-}
-.niz3 {
-  color: rgb(248, 248, 248);
-  margin: 0 0 0 20px;
-}
-.niz4 {
-  color: rgb(248, 248, 248);
-  margin: 0 0 0 20px;
-}
-.niz5 {
-  color: rgb(248, 248, 248);
-}
-.niz6 {
-  color: rgb(248, 248, 248);
-}
-.niz7 {
-  color: rgb(248, 248, 248);
-  margin: 50px 0 0 40px;
-}
-.t1 {
-  color: #fb6d3a;
-}
+
+
+
+
+
+
 .roga {
   color: #fb6d3a;
 }
@@ -64,12 +89,7 @@ body {
 .osnovnoy-block {
   margin-left: 90px;
 }
-.tel {
-  color: #fb6d3a;
-}
-.mail {
-  color: #fb6d3a;
-}
+
 .otstyp2 {
   margin-left: 30px;
 }
@@ -95,22 +115,5 @@ body {
 .l2 {
   margin-right: 50px;
 }
-.f3,
-.f4 {
-  margin: 50px 0 0 40px;
-}
-.f6,
-.f5 {
-  margin: 0px 0 0 40px;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-.p{
-    width: 700px;
-}
+
+
