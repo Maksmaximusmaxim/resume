@@ -32,6 +32,9 @@ img{
 .myData {
   margin: 30px 0 0 40px;
 }
+.myData:last-child{
+  margin-bottom: 30px;
+}
 .myData--title {
   color: rgb(248, 248, 248);
   /* margin: 0 0 10px 20px; */
