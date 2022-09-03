@@ -62,12 +62,10 @@ ul > .list--item + .list--item{
 }
 .item--title {
   
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-.item--title-color{
-color: #fb6d3a;
-}
+
 
 .container {
   display: flex;
@@ -126,7 +124,12 @@ color: #fb6d3a;
   margin-left: 10px;
 }
 .item--text{
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 0;
 }
-
+.education{
+  margin-top: 50px;
+}
+.project--list li + li {
+ margin-top: 10px;
+}
